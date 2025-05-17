@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0"
+AutodeskProduct="AutoCAD"
+ProductType="Application"
+Name="CAD Assist"
+Description="CAD Manager"
+AppVersion="5.1"
+Author="structIQe Technologies Pvt Ltd"
+Icon="./Contents/Resources/Icon.bmp"
+Helpfile="./Contents/Resources/User Manual.pdf">
+ 
+  <CompanyDetails Name="structIQe Technologies Pvt Ltd" Phone=" " Url="http://www.structiqe.com" Email="info@structiqe.com" />
+  <Components Description="2023">
+    <RuntimeRequirements SupportPath="./Contents/Resources" OS="Win32|Win64" Platform="AutoCAD|AutoCAD*" SeriesMin="R24.2" SeriesMax="R25.0" />
+    <ComponentEntry AppName="CADAssist" Version="5.1" ModuleName="./Contents/Windows/CAD Assist.dll" LoadOnAutoCADStartup="True" />
+  </Components>
+</ApplicationPackage>

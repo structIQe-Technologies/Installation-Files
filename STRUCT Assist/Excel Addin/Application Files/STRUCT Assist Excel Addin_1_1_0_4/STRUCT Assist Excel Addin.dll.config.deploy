@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="structIQe_Excel_Addin.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+
+    <userSettings>
+        <structIQe_Excel_Addin.MySettings>
+            <setting name="App_Name" serializeAs="String">
+                <value>STRUCT Assist</value>
+            </setting>
+            <setting name="Struct_Assist_Mult_Tab_name" serializeAs="String">
+                <value>STRUCT Assist Script</value>
+            </setting>
+            <setting name="INPUT_Prefix" serializeAs="String">
+                <value>INPUT</value>
+            </setting>
+            <setting name="OUTPUT_Prefix" serializeAs="String">
+                <value>OUTPUT</value>
+            </setting>
+            <setting name="LOCATION_EXE" serializeAs="String">
+                <value>C:\Program Files (x86)\structIQe\STRUCT Assist\Library\STRUCT Assist.exe</value>
+            </setting>
+            <setting name="LOCATION_RUS" serializeAs="String">
+                <value>C:\Program Files (x86)\structIQe\STRUCT Assist\Support\License Support\RUS_QDYMX.exe</value>
+            </setting>
+            <setting name="fid_STRUCT_Assist_multi" serializeAs="String">
+                <value>7010</value>
+            </setting>
+        </structIQe_Excel_Addin.MySettings>
+    </userSettings>
+</configuration>

@@ -1,0 +1,6 @@
+STRUCT Assist 
+© 2025 structIQe Technologies Pvt Ltd
+All rights reserved. 
+1. Use the Installer provided with the package to install the software in "C:\Program Files (x86)\structIQe\STRUCT Assist".
+2. You can run the program using "C:\Program Files (x86)\structIQe\STRUCT Assist\Library\STRUCT Assist.exe".
+3. Or you can open and use any template excel files provided in "C:\Program Files (x86)\structIQe\STRUCT Assist\Samples" folder to use with the program by clicking the options provided in "STRUCT Assist" tab in Ribbon Interface of MS Excel.

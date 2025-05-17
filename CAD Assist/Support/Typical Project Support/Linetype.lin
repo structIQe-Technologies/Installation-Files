@@ -1,0 +1,6 @@
+*X_LINE,X ----X----X----X----X----X----X--
+A,.5,["X",STANDARD,S=.1,R=0.0,X=-0.1,Y=-.05],-.001
+
+
+*INTERROMPU2,hi ----hi----hi----hi----hi----hi----hi--
+A,.5,["hi",STANDARD,S=.1,R=0.0,X=-0.1,Y=-.05],-.001
