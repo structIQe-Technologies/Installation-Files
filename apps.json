@@ -2,7 +2,7 @@
   {
     "id": "cad_assist",
     "name": "CAD Assist",
-    "source_folder": "CAD Assist",  
+    "Folder": "CAD Assist",  
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
     "Modules": ["Plugin", "Support Files"],
@@ -12,7 +12,7 @@
   {
     "id": "project_assist",
     "name": "PROJECT Assist",
-    "source_folder": "PROJECT Assist",
+    "Folder": "PROJECT Assist",
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
     "Modules": [],
@@ -22,7 +22,7 @@
   {
     "id": "struct_assist",
     "name": "STRUCT Assist",
-    "source_folder": "STRUCT Assist",
+    "Folder": "STRUCT Assist",
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
     "Modules": ["Excel Add-in", "Samples", "Support"],
