@@ -5,7 +5,7 @@
     "source_folder": "CAD Assist",   // Folder in your repo
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
-    "modules": ["Plugin", "Support Files"],
+    "Modules": ["Plugin", "Support Files"],
     "release_notes": "Initial release of CAD Assist.",
     "icon": "cadassist_icon.png"
   },
@@ -15,7 +15,7 @@
     "source_folder": "PROJECT Assist",
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
-    "modules": [],
+    "Modules": [],
     "release_notes": "Initial release.",
     "icon": "projectassist_icon.png"
   },
@@ -25,7 +25,7 @@
     "source_folder": "STRUCT Assist",
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
-    "modules": ["Excel Add-in", "Samples", "Support"],
+    "Modules": ["Excel Add-in", "Samples", "Support"],
     "release_notes": "Major bug fixes and performance improvements.",
     "icon": "structassist_icon.png"
   }
