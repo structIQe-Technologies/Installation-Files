@@ -2,7 +2,7 @@
   {
     "id": "cad_assist",
     "name": "CAD Assist",
-    "source_folder": "CAD Assist",   // Folder in your repo
+    "source_folder": "CAD Assist",  
     "version": "1.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
     "Modules": ["Plugin", "Support Files"],
