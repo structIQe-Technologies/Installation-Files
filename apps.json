@@ -4,7 +4,7 @@
     "name": "CAD Assist",
     "Folder": "CAD Assist",  
     "version": "1.0.0",
-    "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
+    "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\CAD Assist",
     "Modules": ["Plugin", "Support Files"],
     "release_notes": "Initial release of CAD Assist.",
     "icon": "cadassist_icon.png"
@@ -14,7 +14,7 @@
     "name": "PROJECT Assist",
     "Folder": "PROJECT Assist",
     "version": "1.0.0",
-    "install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
+    "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\PROJECT Assist",
     "Modules": [],
     "release_notes": "Initial release.",
     "icon": "projectassist_icon.png"
@@ -24,7 +24,7 @@
     "name": "STRUCT Assist",
     "Folder": "STRUCT Assist",
     "version": "1.0.0",
-    "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
+    "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\STRUCT Assist",
     "Modules": ["Excel Add-in", "Samples", "Support"],
     "release_notes": "Major bug fixes and performance improvements.",
     "icon": "structassist_icon.png"
