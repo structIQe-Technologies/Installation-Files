@@ -23,7 +23,7 @@
     "id": "struct_assist",
     "name": "STRUCT Assist",
     "Folder": "STRUCT Assist",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\STRUCT Assist",
     "Modules": ["Excel Add-in", "Samples", "Support"],
     "release_notes": "Major bug fixes and performance improvements.",
