@@ -47,7 +47,7 @@
                 <value>C:\Program Files (x86)\structIQe\STRUCT Assist\Library\STRUCT Assist.exe</value>
             </setting>
             <setting name="LOCATION_RUS" serializeAs="String">
-                <value>C:\Program Files (x86)\structIQe\STRUCT Assist\Support\License Support\RUS_QDYMX.exe</value>
+                <value>C:\Program Files (x86)\structIQe\License Support\RUS_QDYMX.exe</value>
             </setting>
             <setting name="fid_STRUCT_Assist_multi" serializeAs="String">
                 <value>7010</value>
