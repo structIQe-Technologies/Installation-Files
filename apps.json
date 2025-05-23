@@ -38,7 +38,7 @@
     "Modules": ["Excel Add-in", "Samples", "Support"],
     "release_notes": "Major bug fixes and performance improvements.",
     "icon": "structassist_icon.png",
-    "install_steps": [
+    "installSteps": [
       {
         "action": "copy",
         "from": "C:/Program Files (x86)/StructIQe Launcher/License Support/*",
