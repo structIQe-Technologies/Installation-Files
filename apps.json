@@ -23,6 +23,7 @@
             {
                 "action": "copy",
                 "from": "C:\\Program Files (x86)\\StructIQe Launcher\\CAD Assist\\Library\\Other APIs",
+                        
                 "to": [
                     "C:\\Program Files\\Autodesk\\AutoCAD 2020",
                     "C:\\Program Files\\Autodesk\\AutoCAD 2021",
@@ -63,12 +64,13 @@
             },
             {
                 "action": "run_setup",
-                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Excel\\setup.exe",
+                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Excel",
+                         
                 "args": "/silent"
             },
              {
                 "action": "run_setup",
-                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Outlook\\setup.exe",
+                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Outlook",
                 "args": "/silent"
             }
         ]
