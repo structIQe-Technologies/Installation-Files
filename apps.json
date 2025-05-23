@@ -41,11 +41,11 @@
     "install_steps": [
       {
         "action": "copy",
-        "from": "C:/Program Files (x86)/StructIQe Launcher/License Support/*",
+        "from": "C:/Program Files (x86)/StructIQe Launcher/License Support",
         "to": [
           
-          "C:/_Temp/NEW",
-          "C:/Program Files/Microsoft Office/root/Office15",
+          "C:\\_Temp\\NEW",
+          "C:\\Program Files\\Microsoft Office\\root\\Office15",
           "C:/Program Files/Microsoft Office/root/Office16"
         ]
       },
