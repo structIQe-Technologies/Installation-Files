@@ -3,7 +3,7 @@
         "id": "cad_assist",
         "name": "CAD Assist",
         "Folder": "CAD Assist",
-        "version": "1.0.0",
+        "version": "0.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\CAD Assist",
         "Modules": [
             "Plugin",
@@ -30,11 +30,6 @@
                     "C:\\Program Files\\Autodesk\\AutoCAD 2022",
                     "C:\\Program Files\\Autodesk\\AutoCAD 2023"
                 ]
-            },
-            {
-                "action": "run_setup",
-                "file": "C:/Program Files (x86)/StructIQe Launcher/STRUCT Assist Excel Addin/setup.exe",
-                "args": "/silent"
             }
         ]
     },
@@ -46,7 +41,7 @@
         "id": "project_assist",
         "name": "PROJECT Assist",
         "Folder": "PROJECT Assist",
-        "version": "2.0.0",
+        "version": "0.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\PROJECT Assist",
         "Modules": [],
         "release_notes": "Initial release.",
@@ -86,7 +81,7 @@
         "id": "struct_assist",
         "name": "STRUCT Assist",
         "Folder": "STRUCT Assist",
-        "version": "1.0.0",
+        "version": "0.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\STRUCT Assist",
         "Modules": [
             "Excel Add-in",
@@ -104,7 +99,7 @@
         "id": "struct_assist-excel-addin",
         "name": "STRUCT Assist Excel Addin",
         "Folder": "STRUCT Assist Excel Addin",
-        "version": "1.0.0",
+        "version": "0.0.0",
         "Modules": [
             "Excel Add-in",
             "Samples",
