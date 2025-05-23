@@ -34,7 +34,7 @@
     "name": "STRUCT Assist Excel Addin",
     "Folder": "STRUCT Assist Excel Addin",
     "version": "1.3.0",
-    "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\STRUCT Assist  Excel Addin",
+    
     "Modules": ["Excel Add-in", "Samples", "Support"],
     "release_notes": "Major bug fixes and performance improvements.",
     "icon": "structassist_icon.png",
