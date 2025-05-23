@@ -3,7 +3,7 @@
     "id": "cad_assist",
     "name": "CAD Assist",
     "Folder": "CAD Assist",  
-    "version": "1.1.0",
+    "version": "1.2.0",
     "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\CAD Assist",
     "Modules": ["Plugin", "Support Files"],
     "release_notes": "Initial release of CAD Assist.",
