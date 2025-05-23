@@ -47,13 +47,13 @@
           "C:/_Temp/NEW",
           "C:/Program Files/Microsoft Office/root/Office15",
           "C:/Program Files/Microsoft Office/root/Office16"
-          
+        ]
       },
       {
         "action": "run_setup",
         "file": "C:/Program Files (x86)/StructIQe Launcher/STRUCT Assist Excel Addin/setup.exe",
         "args": "/silent"
-      },
+      }
     ]
       
   }
