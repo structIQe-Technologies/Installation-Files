@@ -32,7 +32,7 @@
                 ]
             }
         ],
-        "uninstall_display_name": []
+        "UninstallDisplayNames": []
     },
     {
         "id": "project_assist",
@@ -65,7 +65,7 @@
                 "args": "/silent"
             }
         ],
-        "uninstall_display_name": [
+        "UninstallDisplayNames": [
             "PROJECT Assist Excel",
             "PROJECT Assist Outlook"
         ]
@@ -115,7 +115,7 @@
                 "args": "/silent"
             }
         ],
-        "uninstall_display_name": [
+        "UninstallDisplayNames": [
             "STRUCT Assist Excel Addin"
         ]
     }
