@@ -3,7 +3,7 @@
         "id": "cad_assist",
         "name": "CAD Assist",
         "Folder": "CAD Assist",
-        "version": "0.0.0",
+        "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\CAD Assist",
         "Modules": [
             "Plugin",
@@ -31,7 +31,10 @@
                     "C:\\Program Files\\Autodesk\\AutoCAD 2023"
                 ]
             }
-        ]
+        ],
+        "uninstall_display_name": [
+                                      
+                                  ]
     },
 
 
@@ -93,7 +96,8 @@
             "Support"
         ],
         "release_notes": "Major bug fixes and performance improvements.",
-        "icon": "structassist_icon.png"
+        "icon": "structassist_icon.png",
+       
     },
 
 
