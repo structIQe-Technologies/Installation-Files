@@ -2,10 +2,10 @@
     {
         "id": "cad_assist",
         "name": "CAD Assist",
-        "repo": "https://github.com/structIQe-Technologies/CAD-Assist",   // <-- NEW
+        "repo": "https://github.com/structIQe-Technologies/CAD-Assist",
         "Folder": "CAD Assist",
-        "version": "1.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\CAD Assist",
+        "version": "0.0.0",
+        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\CAD Assist",
         "Modules": [
             "Plugin",
             "Support Files"
@@ -15,7 +15,7 @@
         "install_steps": [
             {
                 "action": "copy",
-                "from": "C:\\Program Files (x86)\\StructIQe Launcher\\CAD Assist\\Library\\Lib",
+                "from": "C:\\Program Files (x86)\\structIQe Launcher\\CAD Assist\\Library\\Lib",
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Autodesk\\ApplicationPlugins"
@@ -23,7 +23,7 @@
             },
             {
                 "action": "copy",
-                "from": "C:\\Program Files (x86)\\StructIQe Launcher\\CAD Assist\\Library\\Other APIs",
+                "from": "C:\\Program Files (x86)\\structIQe Launcher\\CAD Assist\\Library\\Other APIs",
                 "to": [
                     "C:\\Program Files\\Autodesk\\AutoCAD 2020",
                     "C:\\Program Files\\Autodesk\\AutoCAD 2021",
@@ -37,17 +37,17 @@
     {
         "id": "project_assist",
         "name": "PROJECT Assist",
-        "repo": "https://github.com/structIQe-Technologies/PROJECT-Assist",   // <-- NEW
+        "repo": "https://github.com/structIQe-Technologies/PROJECT-Assist",
         "Folder": "PROJECT Assist",
-        "version": "2.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\PROJECT Assist",
+        "version": "0.0.0",
+        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\PROJECT Assist",
         "Modules": [],
         "release_notes": "Initial release.",
         "icon": "projectassist_icon.png",
         "install_steps": [
             {
                 "action": "copy",
-                "from": "C:/Program Files (x86)/StructIQe Launcher/License Support/License APIs",
+                "from": "C:/Program Files (x86)/structIQe Launcher/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Microsoft Office\\root\\Office15",
@@ -56,12 +56,12 @@
             },
             {
                 "action": "run_setup",
-                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Excel\\setup.exe",
+                "file": "C:\\Program Files (x86)\\structIQe Launcher\\PROJECT Assist\\Library\\Excel\\setup.exe",
                 "args": "/silent"
             },
             {
                 "action": "run_setup",
-                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Outlook\\setup.exe",
+                "file": "C:\\Program Files (x86)\\structIQe Launcher\\PROJECT Assist\\Library\\Outlook\\setup.exe",
                 "args": "/silent"
             }
         ],
@@ -73,10 +73,10 @@
     {
         "id": "struct_assist",
         "name": "STRUCT Assist",
-        "repo": "https://github.com/structIQe-Technologies/STRUCT-Assist",   // <-- NEW
+        "repo": "https://github.com/structIQe-Technologies/STRUCT-Assist",
         "Folder": "STRUCT Assist",
-        "version": "1.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\STRUCT Assist",
+        "version": "0.0.0",
+        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\STRUCT Assist",
         "Modules": [
             "Excel Add-in",
             "Samples",
@@ -88,9 +88,10 @@
     {
         "id": "struct_assist-excel-addin",
         "name": "STRUCT Assist Excel Addin",
-        "repo": "https://github.com/structIQe-Technologies/STRUCT-Assist-Excel-Addin",   // <-- NEW
+        "repo": "https://github.com/structIQe-Technologies/STRUCT-Assist-Excel-Addin",
         "Folder": "STRUCT Assist Excel Addin",
-        "version": "3.0.0",
+        "version": "0.0.0",
+        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\STRUCT Assist Excel Addin",
         "Modules": [
             "Excel Add-in",
             "Samples",
@@ -101,7 +102,7 @@
         "install_steps": [
             {
                 "action": "copy",
-                "from": "C:/Program Files (x86)/StructIQe Launcher/License Support/License APIs",
+                "from": "C:/Program Files (x86)/structIQe Launcher/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Microsoft Office\\root\\Office15",
@@ -110,7 +111,7 @@
             },
             {
                 "action": "run_setup",
-                "file": "C:/Program Files (x86)/StructIQe Launcher/STRUCT Assist Excel Addin/setup.exe",
+                "file": "C:/Program Files (x86)/structIQe Launcher/STRUCT Assist Excel Addin/setup.exe",
                 "args": "/silent"
             }
         ],
