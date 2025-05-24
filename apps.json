@@ -1,4 +1,21 @@
 [
+
+{
+        "id": "License_support",
+        "name": "License Support",
+        "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
+        "Folder": "",
+        "version": "0.0.0",
+        "install_path": "C:\\Program Files (x86)\\structIQe Launcher",
+        "Modules": [
+        ],
+        "release_notes": "",
+        
+    },
+
+
+
+    
     {
         "id": "cad_assist",
         "name": "CAD Assist",
