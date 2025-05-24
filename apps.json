@@ -41,7 +41,7 @@
         "id": "project_assist",
         "name": "PROJECT Assist",
         "Folder": "PROJECT Assist",
-        "version": "0.0.0",
+        "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\PROJECT Assist",
         "Modules": [],
         "release_notes": "Initial release.",
@@ -69,6 +69,10 @@
             }
 
         ]
+        "uninstall_display_name": [
+                                      "PROJECT Assist Excel",
+                                      "PROJECT Assist Outlook"
+                                  ]
     },
 
 
@@ -99,7 +103,7 @@
         "id": "struct_assist-excel-addin",
         "name": "STRUCT Assist Excel Addin",
         "Folder": "STRUCT Assist Excel Addin",
-        "version": "0.0.0",
+        "version": "1.0.0",
         "Modules": [
             "Excel Add-in",
             "Samples",
@@ -123,5 +127,7 @@
                 "args": "/silent"
             }
         ]
+
+        "uninstall_display_name": ["Struct Assist Excel Add-In"]
     }
 ]
