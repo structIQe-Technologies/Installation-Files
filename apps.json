@@ -23,7 +23,6 @@
             {
                 "action": "copy",
                 "from": "C:\\Program Files (x86)\\StructIQe Launcher\\CAD Assist\\Library\\Other APIs",
-                        
                 "to": [
                     "C:\\Program Files\\Autodesk\\AutoCAD 2020",
                     "C:\\Program Files\\Autodesk\\AutoCAD 2021",
@@ -32,14 +31,8 @@
                 ]
             }
         ],
-        "uninstall_display_name": [
-                                      
-                                  ]
+        "uninstall_display_name": []
     },
-
-
-
-    
     {
         "id": "project_assist",
         "name": "PROJECT Assist",
@@ -49,41 +42,32 @@
         "Modules": [],
         "release_notes": "Initial release.",
         "icon": "projectassist_icon.png",
-
-         "install_steps": [
+        "install_steps": [
             {
                 "action": "copy",
                 "from": "C:/Program Files (x86)/StructIQe Launcher/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
-                    "C:\\Program Files\\Microsoft Office\\root\\Office15",
+                    "C:\\Program Files\\Microsoft Office\root\\Office15",
                     "C:/Program Files/Microsoft Office/root/Office16"
                 ]
             },
             {
-              "action": "run_setup",
-              "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Excel\\setup.exe",
-              "args": "/silent"
+                "action": "run_setup",
+                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Excel\\setup.exe",
+                "args": "/silent"
             },
             {
-              "action": "run_setup",
-              "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Outlook\\setup.exe",
-              "args": "/silent"
+                "action": "run_setup",
+                "file": "C:\\Program Files (x86)\\StructIQe Launcher\\PROJECT Assist\\Library\\Outlook\\setup.exe",
+                "args": "/silent"
             }
-
         ],
         "uninstall_display_name": [
-                                      "PROJECT Assist Excel",
-                                      "PROJECT Assist Outlook"
-                                  ]
+            "PROJECT Assist Excel",
+            "PROJECT Assist Outlook"
+        ]
     },
-
-
-
-
-
-
-    
     {
         "id": "struct_assist",
         "name": "STRUCT Assist",
@@ -96,13 +80,8 @@
             "Support"
         ],
         "release_notes": "Major bug fixes and performance improvements.",
-        "icon": "structassist_icon.png",
-       
+        "icon": "structassist_icon.png"
     },
-
-
-
-    
     {
         "id": "struct_assist-excel-addin",
         "name": "STRUCT Assist Excel Addin",
@@ -121,7 +100,7 @@
                 "from": "C:/Program Files (x86)/StructIQe Launcher/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
-                    "C:\\Program Files\\Microsoft Office\\root\\Office15",
+                    "C:\\Program Files\\Microsoft Office\root\\Office15",
                     "C:/Program Files/Microsoft Office/root/Office16"
                 ]
             },
@@ -131,7 +110,8 @@
                 "args": "/silent"
             }
         ],
-
-        "uninstall_display_name": ["STRUCT Assist Excel Addin"]
+        "uninstall_display_name": [
+            "STRUCT Assist Excel Addin"
+        ]
     }
 ]
