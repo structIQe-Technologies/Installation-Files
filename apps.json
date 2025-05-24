@@ -68,7 +68,7 @@
               "args": "/silent"
             }
 
-        ]
+        ],
         "uninstall_display_name": [
                                       "PROJECT Assist Excel",
                                       "PROJECT Assist Outlook"
@@ -126,7 +126,7 @@
                 "file": "C:/Program Files (x86)/StructIQe Launcher/STRUCT Assist Excel Addin/setup.exe",
                 "args": "/silent"
             }
-        ]
+        ],
 
         "uninstall_display_name": ["Struct Assist Excel Add-In"]
     }
