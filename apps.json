@@ -2,6 +2,7 @@
     {
         "id": "cad_assist",
         "name": "CAD Assist",
+        "repo": "https://github.com/structIQe-Technologies/CAD-Assist",   // <-- NEW
         "Folder": "CAD Assist",
         "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\CAD Assist",
@@ -36,6 +37,7 @@
     {
         "id": "project_assist",
         "name": "PROJECT Assist",
+        "repo": "https://github.com/structIQe-Technologies/PROJECT-Assist",   // <-- NEW
         "Folder": "PROJECT Assist",
         "version": "2.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\PROJECT Assist",
@@ -71,6 +73,7 @@
     {
         "id": "struct_assist",
         "name": "STRUCT Assist",
+        "repo": "https://github.com/structIQe-Technologies/STRUCT-Assist",   // <-- NEW
         "Folder": "STRUCT Assist",
         "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe_Launcher2\\STRUCT Assist",
@@ -85,6 +88,7 @@
     {
         "id": "struct_assist-excel-addin",
         "name": "STRUCT Assist Excel Addin",
+        "repo": "https://github.com/structIQe-Technologies/STRUCT-Assist-Excel-Addin",   // <-- NEW
         "Folder": "STRUCT Assist Excel Addin",
         "version": "3.0.0",
         "Modules": [
