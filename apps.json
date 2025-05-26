@@ -4,11 +4,13 @@
         "id": "license_support",
     "name": "License Support",
     "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "install_path": "C:\\Program Files (x86)\\structIQe Launcher",
     "Modules": [],
     "release_notes": "",
     "system_app": true,
+    "hasp_installer_path": "C:\\Program Files (x86)\\structIQe Launcher\\License Support\\haspdinst_106406.exe",
+    "rus_path": "C:\\Program Files (x86)\\structIQe Launcher\\License Support\\RUS_QDYMX.exe",
     "install_steps": [
         {
             "action": "copy",
