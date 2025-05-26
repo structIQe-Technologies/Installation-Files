@@ -5,7 +5,7 @@
     "name": "License Support",
     "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
     "version": "1.0.0",
-    "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\License Support",
+    "install_path": "C:\\Program Files (x86)\\structIQe Launcher",
     "Modules": [],
     "release_notes": "",
     "system_app": true,
