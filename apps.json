@@ -14,7 +14,7 @@
             "action": "copy",
             "from": ".",
             "to": [
-                "C:\\Program Files (x86)\\structIQe Launcher\\License Support"
+                "C:\\Program Files (x86)\\structIQe Launcher"
             ]
         }
     ]
