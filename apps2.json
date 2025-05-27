@@ -48,6 +48,7 @@
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Autodesk\\ApplicationPlugins"
                 ]
+                     "allow_create": true
             },
             {
                 "action": "copy",
@@ -58,6 +59,7 @@
                     "C:\\Program Files\\Autodesk\\AutoCAD 2022",
                     "C:\\Program Files\\Autodesk\\AutoCAD 2023"
                 ]
+                     "allow_create": false
             }
         ],
         "UninstallDisplayNames": []
@@ -88,7 +90,9 @@
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Microsoft Office\\root\\Office15",
                     "C:/Program Files/Microsoft Office/root/Office16"
+                        
                 ]
+                    "allow_create": false
             },
             {
                 "action": "run_setup",
@@ -160,6 +164,7 @@
                     "C:\\Program Files\\Microsoft Office\\root\\Office15",
                     "C:/Program Files/Microsoft Office/root/Office16"
                 ]
+                    "allow_create": false
             },
             {
                 "action": "run_setup",
