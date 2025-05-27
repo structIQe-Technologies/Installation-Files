@@ -4,7 +4,7 @@
         "id": "license_support",
     "name": "License Support",
     "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "install_path": "C:\\Program Files (x86)\\structIQe",
     "Modules": [],
     "release_notes": "",
@@ -54,10 +54,8 @@
                 "action": "copy",
                 "from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Other APIs",
                 "to": [
-                    "C:\\Program Files\\Autodesk\\AutoCAD 2020",
-                    "C:\\Program Files\\Autodesk\\AutoCAD 2021",
-                    "C:\\Program Files\\Autodesk\\AutoCAD 2022",
-                    "C:\\Program Files\\Autodesk\\AutoCAD 2023"
+                    
+                    "C:\\Program Files\\Autodesk\\AutoCAD 20*\\Support"
                 ]
                      "allow_create": false
             }
@@ -161,8 +159,8 @@
                 "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
-                    "C:\\Program Files\\Microsoft Office\\root\\Office15",
-                    "C:/Program Files/Microsoft Office/root/Office16"
+                    
+                    "C:/Program Files/Microsoft Office/root/Office*/Support"
                 ]
                     "allow_create": false
             },
