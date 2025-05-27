@@ -4,19 +4,19 @@
         "id": "license_support",
     "name": "License Support",
     "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
-    "version": "1.0.1",
-    "install_path": "C:\\Program Files (x86)\\structIQe Launcher",
+    "version": "1.0.0",
+    "install_path": "C:\\Program Files (x86)\\structIQe",
     "Modules": [],
     "release_notes": "",
     "system_app": true,
-    "hasp_installer_path": "C:\\Program Files (x86)\\structIQe Launcher\\License Support\\haspdinst_106406.exe",
-    "rus_path": "C:\\Program Files (x86)\\structIQe Launcher\\License Support\\RUS_QDYMX.exe",
+    "hasp_installer_path": "C:\\Program Files (x86)\\structIQe\\License Support\\haspdinst_106406.exe",
+    "rus_path": "C:\\Program Files (x86)\\structIQe\\License Support\\RUS_QDYMX.exe",
     "install_steps": [
         {
             "action": "copy",
             "from": ".",
             "to": [
-                "C:\\Program Files (x86)\\structIQe Launcher"
+                "C:\\Program Files (x86)\\structIQe"
             ]
         }
     ]
@@ -31,7 +31,7 @@
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-CAD-Assist",
         "Folder": "CAD Assist",
         "version": "1.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\CAD Assist",
+        "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
             "feature_range_start": 6000,
             "feature_range_end": 6100,
         "Modules": [
@@ -43,7 +43,7 @@
         "install_steps": [
             {
                 "action": "copy",
-                "from": "C:\\Program Files (x86)\\structIQe Launcher\\CAD Assist\\Library\\Lib",
+                "from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Lib",
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Autodesk\\ApplicationPlugins"
@@ -51,7 +51,7 @@
             },
             {
                 "action": "copy",
-                "from": "C:\\Program Files (x86)\\structIQe Launcher\\CAD Assist\\Library\\Other APIs",
+                "from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Other APIs",
                 "to": [
                     "C:\\Program Files\\Autodesk\\AutoCAD 2020",
                     "C:\\Program Files\\Autodesk\\AutoCAD 2021",
@@ -74,7 +74,7 @@
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-PROJECT-Assist",
         "Folder": "PROJECT Assist",
         "version": "1.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\PROJECT Assist",
+        "install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
             "feature_range_start": 12000,
             "feature_range_end": 12100,
         "Modules": [],
@@ -83,7 +83,7 @@
         "install_steps": [
             {
                 "action": "copy",
-                "from": "C:/Program Files (x86)/structIQe Launcher/License Support/License APIs",
+                "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Microsoft Office\\root\\Office15",
@@ -92,12 +92,12 @@
             },
             {
                 "action": "run_setup",
-                "file": "C:\\Program Files (x86)\\structIQe Launcher\\PROJECT Assist\\Library\\Excel\\setup.exe",
+                "file": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist\\Library\\Excel\\setup.exe",
                 "args": "/silent"
             },
             {
                 "action": "run_setup",
-                "file": "C:\\Program Files (x86)\\structIQe Launcher\\PROJECT Assist\\Library\\Outlook\\setup.exe",
+                "file": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist\\Library\\Outlook\\setup.exe",
                 "args": "/silent"
             }
         ],
@@ -118,7 +118,7 @@
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-STRUCT-Assist",
         "Folder": "STRUCT Assist",
         "version": "1.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\STRUCT Assist",
+        "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
             "feature_range_start": 7000,
             "feature_range_end": 7100,
         "Modules": [
@@ -141,7 +141,7 @@
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-STRUCT-Assist-Excel-Addin",
         "Folder": "STRUCT Assist Excel Addin",
         "version": "1.0.0",
-        "install_path": "C:\\Program Files (x86)\\structIQe Launcher\\STRUCT Assist Excel Addin",
+        "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist Excel Addin",
             "feature_range_start": 7000,
             "feature_range_end": 7100,
         "Modules": [
@@ -154,7 +154,7 @@
         "install_steps": [
             {
                 "action": "copy",
-                "from": "C:/Program Files (x86)/structIQe Launcher/License Support/License APIs",
+                "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Microsoft Office\\root\\Office15",
@@ -163,7 +163,7 @@
             },
             {
                 "action": "run_setup",
-                "file": "C:/Program Files (x86)/structIQe Launcher/STRUCT Assist Excel Addin/setup.exe",
+                "file": "C:/Program Files (x86)/structIQe/STRUCT Assist Excel Addin/setup.exe",
                 "args": "/silent"
             }
         ],
