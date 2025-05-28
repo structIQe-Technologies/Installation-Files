@@ -49,7 +49,7 @@
                 "action": "copy",
                 "from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Other APIs",
                 "to": [
-                    "C:\\Program Files\\Autodesk\\AutoCAD 20*\\Support"
+                    "C:\\Program Files\\Autodesk\\AutoCAD 20*"
                 ],
                 "allow_create": false
             }
