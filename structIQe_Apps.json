@@ -21,8 +21,8 @@
         "Folder": "CAD Assist",
         "version": "0.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
-        "feature_range_start": 2000,
-        "feature_range_end": 2100,
+        "feature_range_start": 6000,
+        "feature_range_end": 6100,
         "Modules": [
             "CAD Manager",
             "Tendon Works",
@@ -121,8 +121,8 @@
         "Folder": "STRUCT Assist Excel Addin",
         "version": "2.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist Excel Addin",
-        "feature_range_start": 7000,
-        "feature_range_end": 7100,
+        "feature_range_start": 8000,
+        "feature_range_end": 8100,
         "Modules": [
             
         ],
