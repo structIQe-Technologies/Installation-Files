@@ -12,7 +12,15 @@
         "hasp_installer_path": "License Support\\haspdinst_106406.exe",
         "rus_path": "License Support\\RUS_QDYMX.exe",
 
-        "install_steps": []
+        "install_steps": [
+            {
+                "action": "copy",
+                "from": ".",
+                "to": [
+                    "C:\\Program Files (x86)\\structIQe"
+                ]
+            }
+        ]
     },
     {
         "id": "cad_assist",
