@@ -9,7 +9,7 @@
         "release_notes": "",
         "system_app": true,
         
-        "hasp_installer_path": "License Support\\haspdinst_106406.exe",
+        "hasp_installer_path": "License Support\\License APIs\\hasp_rt.exe",
         "rus_path": "License Support\\RUS_QDYMX.exe",
 
         "install_steps": [
