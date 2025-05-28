@@ -42,8 +42,7 @@
                 "action": "copy",
                 "from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Lib",
                 "to": [
-                    "C:\\_Temp\\NEW",
-                    "C:\\Program Files\\Autodesk\\ApplicationPlugins"
+                       "C:\\Program Files\\Autodesk\\ApplicationPlugins"
                 ],
                 "allow_create": true
             },
@@ -75,9 +74,7 @@
                 "action": "copy",
                 "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
-                    "C:\\_Temp\\NEW",
-                    
-                    "C:/Program Files/Microsoft Office/root/Office*"
+                   "C:/Program Files/Microsoft Office/root/Office*"
                 ],
                 "allow_create": false
             },
@@ -135,7 +132,6 @@
                 "action": "copy",
                 "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
-                    "C:\\_Temp\\NEW",
                     "C:/Program Files/Microsoft Office/root/Office*"
                 ],
                 "allow_create": false
