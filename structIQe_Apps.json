@@ -15,7 +15,7 @@
         "install_steps": []
     },
     {
-        "id": "cad_assist",
+        "id": "CAD_Assist",
         "name": "CAD Assist",
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-CAD-Assist",
         "Folder": "CAD Assist",
@@ -50,7 +50,7 @@
         "UninstallDisplayNames": []
     },
     {
-        "id": "project_assist",
+        "id": "PROJECT_Assist",
         "name": "PROJECT Assist",
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-PROJECT-Assist",
         "Folder": "PROJECT Assist",
@@ -87,7 +87,7 @@
         ]
     },
     {
-        "id": "struct_assist",
+        "id": "STRUCT_Assist",
         "name": "STRUCT Assist",
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-STRUCT-Assist",
         "Folder": "STRUCT Assist",
@@ -104,7 +104,7 @@
         "icon": "structassist_icon.png"
     },
     {
-        "id": "struct_assist-excel-addin",
+        "id": "STRUCT_Assist_Excel_Addin",
         "name": "STRUCT Assist Excel Addin",
         "repo": "https://github.com/structIQe-Technologies/Setup-Files-STRUCT-Assist-Excel-Addin",
         "Folder": "STRUCT Assist Excel Addin",
