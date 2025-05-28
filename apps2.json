@@ -1,30 +1,25 @@
 [
-
-{
+    {
         "id": "license_support",
-    "name": "License Support",
-    "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
-    "version": "2.0.0",
-    "install_path": "C:\\Program Files (x86)\\structIQe",
-    "Modules": [],
-    "release_notes": "",
-    "system_app": true,
-    "hasp_installer_path": "C:\\Program Files (x86)\\structIQe\\License Support\\haspdinst_106406.exe",
-    "rus_path": "C:\\Program Files (x86)\\structIQe\\License Support\\RUS_QDYMX.exe",
-    "install_steps": [
-        {
-            "action": "copy",
-            "from": ".",
-            "to": [
-                "C:\\Program Files (x86)\\structIQe"
-            ]
-        }
-    ]
-},
-        
-
-
-    
+        "name": "License Support",
+        "repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
+        "version": "2.0.0",
+        "install_path": "C:\\Program Files (x86)\\structIQe",
+        "Modules": [],
+        "release_notes": "",
+        "system_app": true,
+        "hasp_installer_path": "C:\\Program Files (x86)\\structIQe\\License Support\\haspdinst_106406.exe",
+        "rus_path": "C:\\Program Files (x86)\\structIQe\\License Support\\RUS_QDYMX.exe",
+        "install_steps": [
+            {
+                "action": "copy",
+                "from": ".",
+                "to": [
+                    "C:\\Program Files (x86)\\structIQe"
+                ]
+            }
+        ]
+    },
     {
         "id": "cad_assist",
         "name": "CAD Assist",
@@ -32,8 +27,8 @@
         "Folder": "CAD Assist",
         "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
-            "feature_range_start": 6000,
-            "feature_range_end": 6100,
+        "feature_range_start": 6000,
+        "feature_range_end": 6100,
         "Modules": [
             "Plugin",
             "Support Files"
@@ -47,27 +42,20 @@
                 "to": [
                     "C:\\_Temp\\NEW",
                     "C:\\Program Files\\Autodesk\\ApplicationPlugins"
-                ]
-                     "allow_create": true
+                ],
+                "allow_create": true
             },
             {
                 "action": "copy",
                 "from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Other APIs",
                 "to": [
-                    
                     "C:\\Program Files\\Autodesk\\AutoCAD 20*\\Support"
-                ]
-                     "allow_create": false
+                ],
+                "allow_create": false
             }
         ],
         "UninstallDisplayNames": []
     },
-
-
-
-
-
-    
     {
         "id": "project_assist",
         "name": "PROJECT Assist",
@@ -75,8 +63,8 @@
         "Folder": "PROJECT Assist",
         "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
-            "feature_range_start": 12000,
-            "feature_range_end": 12100,
+        "feature_range_start": 12000,
+        "feature_range_end": 12100,
         "Modules": [],
         "release_notes": "Initial release.",
         "icon": "projectassist_icon.png",
@@ -86,11 +74,10 @@
                 "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
-                    "C:\\Program Files\\Microsoft Office\\root\\Office15",
+                    "C:\\Program Files\\Microsoft Office\root\\Office15",
                     "C:/Program Files/Microsoft Office/root/Office16"
-                        
-                ]
-                    "allow_create": false
+                ],
+                "allow_create": false
             },
             {
                 "action": "run_setup",
@@ -108,12 +95,6 @@
             "PROJECT Assist Outlook"
         ]
     },
-
-
-
-
-
-    
     {
         "id": "struct_assist",
         "name": "STRUCT Assist",
@@ -121,8 +102,8 @@
         "Folder": "STRUCT Assist",
         "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
-            "feature_range_start": 7000,
-            "feature_range_end": 7100,
+        "feature_range_start": 7000,
+        "feature_range_end": 7100,
         "Modules": [
             "Excel Add-in",
             "Samples",
@@ -131,12 +112,6 @@
         "release_notes": "Major bug fixes and performance improvements.",
         "icon": "structassist_icon.png"
     },
-
-
-
-
-
-    
     {
         "id": "struct_assist-excel-addin",
         "name": "STRUCT Assist Excel Addin",
@@ -144,8 +119,8 @@
         "Folder": "STRUCT Assist Excel Addin",
         "version": "1.0.0",
         "install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist Excel Addin",
-            "feature_range_start": 7000,
-            "feature_range_end": 7100,
+        "feature_range_start": 7000,
+        "feature_range_end": 7100,
         "Modules": [
             "Excel Add-in",
             "Samples",
@@ -159,10 +134,9 @@
                 "from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
                 "to": [
                     "C:\\_Temp\\NEW",
-                    
                     "C:/Program Files/Microsoft Office/root/Office*/Support"
-                ]
-                    "allow_create": false
+                ],
+                "allow_create": false
             },
             {
                 "action": "run_setup",
