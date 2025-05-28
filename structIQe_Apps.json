@@ -24,10 +24,12 @@
         "feature_range_start": 2000,
         "feature_range_end": 2100,
         "Modules": [
-            "Plugin",
-            "Support Files"
+            "CAD Manager",
+            "Tendon Works",
+            "Proxi Profile",
+            "Pile Gridworks"
         ],
-        "release_notes": "Initial release of CAD Assist.",
+        "release_notes": "Launcher Updates",
         "icon": "cadassist_icon.png",
         "install_steps": [
             {
@@ -58,7 +60,14 @@
         "install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
         "feature_range_start": 11000,
         "feature_range_end": 11100,
-        "Modules": [],
+        "Modules": [
+            "Project Management",
+            "Mail Management",
+            "Quality Management",
+            "Time Management",
+            "Task Management"
+            
+        ],
         "release_notes": "Initial release.",
         "icon": "projectassist_icon.png",
         "install_steps": [
@@ -96,9 +105,11 @@
         "feature_range_start": 7000,
         "feature_range_end": 7100,
         "Modules": [
-            "Excel Add-in",
-            "Samples",
-            "Support"
+            "Biaxial Analysis",
+            "Uniaxial Analysis",
+            "Base Pressure Check ",
+            "Structural Analysis"
+            
         ],
         "release_notes": "Major bug fixes and performance improvements.",
         "icon": "structassist_icon.png"
@@ -113,9 +124,7 @@
         "feature_range_start": 7000,
         "feature_range_end": 7100,
         "Modules": [
-            "Excel Add-in",
-            "Samples",
-            "Support"
+            
         ],
         "release_notes": "Major bug fixes and performance improvements.",
         "icon": "structassist_icon.png",
