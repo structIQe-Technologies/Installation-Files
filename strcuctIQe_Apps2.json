@@ -1,0 +1,156 @@
+[
+	{
+		"id": "License_support",
+		"name": "License Support",
+		"repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
+		"version": "1.0.0",
+		"install_path": "C:\\Program Files (x86)\\structIQe",
+		"Modules": [],
+		"release_notes": "",
+		"system_app": true,
+		"hasp_installer_path": "License Support\\haspdinst_106406.exe",
+		"rus_path": "License Support\\RUS_QDYMX.exe",
+		"install_steps": []
+	},
+	{
+		"id": "CAD_Assist",
+		"name": "CAD Assist",
+		"repo": "https://github.com/structIQe-Technologies/Setup-Files-CAD-Assist",
+		"Folder": "CAD Assist",
+		"version": "5.1.3",
+		"install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
+		"feature_range_start": 6000,
+		"feature_range_end": 6100,
+		"Modules": [
+			"CAD Manager",
+			"Tendon Works",
+			"Proxi Profile",
+			"Pile Gridworks"
+		],
+		"release_notes": "Bug fixes and performance improvement.",
+		"icon": "cadassist_icon.png",
+		"install_steps": [
+			{
+				"action": "copy",
+				"from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
+				"to": [
+					"C:\\Program Files\\Autodesk\\AutoCAD 20*"
+				],
+				"allow_create": false
+			},
+{
+				"action": "copy",
+				"from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Lib",
+				"to": [
+					"C:\\Program Files\\Autodesk\\ApplicationPlugins"
+				],
+				"allow_create": true
+			},
+			{
+				"action": "copy",
+				"from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Other APIs",
+				"to": [
+					"C:\\Program Files\\Autodesk\\AutoCAD 20*"
+				],
+				"allow_create": false
+			}
+		],
+		"UninstallDisplayNames": []
+	},
+	{
+		"id": "PROJECT_Assist",
+		"name": "PROJECT Assist",
+		"repo": "https://github.com/structIQe-Technologies/Setup-Files-PROJECT-Assist",
+		"Folder": "PROJECT Assist",
+		"version": "1.1.0",
+		"install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
+		"feature_range_start": 11000,
+		"feature_range_end": 11100,
+		"Modules": [
+			"Project Management",
+			"Mail Management",
+			"Quality Management"
+		],
+		"release_notes": "Initial release.",
+		"icon": "projectassist_icon.png",
+		"install_steps": [
+			{
+				"action": "copy",
+				"from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
+				"to": [
+					"C:/Program Files/Microsoft Office/root/Office*"
+				],
+				"allow_create": false
+			},
+			{
+				"action": "run_setup",
+				"file": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist\\Library\\Excel\\setup.exe",
+				"args": "/silent"
+			},
+			{
+				"action": "run_setup",
+				"file": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist\\Library\\Outlook\\setup.exe",
+				"args": "/silent"
+			}
+		],
+		"UninstallDisplayNames": [
+			"PROJECT Assist Excel",
+			"PROJECT Assist Outlook"
+		]
+	},
+	{
+		"id": "STRUCT_Assist",
+		"name": "STRUCT Assist",
+		"repo": "https://github.com/structIQe-Technologies/Setup-Files-STRUCT-Assist",
+		"Folder": "STRUCT Assist",
+		"version": "5.3.1",
+		"install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
+		"feature_range_start": 7000,
+		"feature_range_end": 7100,
+		"Modules": [
+			"Biaxial Analysis",
+			"Uniaxial Analysis",
+			"Base Pressure Check ",
+			"Structural Analysis",
+			"Profile Interpolation",
+			"Report Generation",
+			"Tendon Data Generation"
+		],
+		"release_notes": "Bug fixes and performance improvement.",
+		"icon": "structassist_icon.png"
+	},
+	{
+		"id": "STRUCT_Assist_Excel_Addin",
+		"name": "STRUCT Assist Excel Addin",
+		"repo": "https://github.com/structIQe-Technologies/Setup-Files-STRUCT-Assist-Excel-Addin",
+		"Folder": "STRUCT Assist Excel Addin",
+		"version": "1.2.0",
+		"install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist Excel Addin",
+		"feature_range_start": 7000,
+		"feature_range_end": 7100,
+		"Modules": [
+			"Basic",
+			"Advanced"
+		],
+		"release_notes": "Bug fixes and performance improvement.",
+		"icon": "structassist_icon.png",
+		"install_steps": [
+			{
+				"action": "copy",
+				"from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
+				"to": [
+					"C:/Program Files/Microsoft Office/root/Office*"
+				],
+				"allow_create": false
+			},
+			{
+				"action": "run_setup",
+				"file": "C:/Program Files (x86)/structIQe/STRUCT Assist Excel Addin/setup.exe",
+				"args": "/silent"
+			}
+		],
+		"UninstallDisplayNames": [
+			"STRUCT Assist Excel Addin"
+		]
+	}
+]
