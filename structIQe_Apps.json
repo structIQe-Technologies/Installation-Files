@@ -32,6 +32,14 @@
 		"install_steps": [
 			{
 				"action": "copy",
+				"from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
+				"to": [
+					"C:\\Program Files\\Autodesk\\AutoCAD 20*"
+				],
+				"allow_create": false
+			},
+{
+				"action": "copy",
 				"from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Lib",
 				"to": [
 					"C:\\Program Files\\Autodesk\\ApplicationPlugins"
