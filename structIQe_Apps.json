@@ -17,7 +17,7 @@
 		"name": "CAD Assist",
 		"repo": "https://github.com/structIQe-Technologies/Setup-Files-CAD-Assist",
 		"Folder": "CAD Assist",
-		"version": "5.1.3",
+		"version": "5.1.4",
 		"install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
 		"feature_range_start": 6000,
 		"feature_range_end": 6100,
@@ -34,7 +34,7 @@
 				"action": "copy",
 				"from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
 				"to": [
-					"C:\\Program Files\\Autodesk\\AutoCAD 20*"
+					"C:\\_Temp\\New folder"
 				],
 				"allow_create": false
 			},
@@ -42,7 +42,7 @@
 				"action": "copy",
 				"from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Lib",
 				"to": [
-					"C:\\Program Files\\Autodesk\\ApplicationPlugins"
+					"C:\\_Temp\\ApplicationPlugins"
 				],
 				"allow_create": true
 			},
@@ -50,7 +50,7 @@
 				"action": "copy",
 				"from": "C:\\Program Files (x86)\\structIQe\\CAD Assist\\Library\\Other APIs",
 				"to": [
-					"C:\\Program Files\\Autodesk\\AutoCAD 20*"
+					"C:\\_Temp"
 				],
 				"allow_create": false
 			}
