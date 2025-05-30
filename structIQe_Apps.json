@@ -39,6 +39,11 @@
 				"allow_create": false
 			},
 			{
+				  "action": "vsto_installer",
+				  "file": ["Excel/PROJECT Assist Excel.vsto",
+    						"Outlook/PROJECT Assist Outlook.vsto"]
+				},
+			{
 				"action": "run_setup",
 				"file": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist\\Library\\Excel\\setup.exe",
 				"args": "/silent"
