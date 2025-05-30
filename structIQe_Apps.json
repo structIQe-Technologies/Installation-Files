@@ -40,11 +40,13 @@
 			},
 			{
 				  "action": "vsto_installer",
-				  "file": "STRUCT Assist Excel Addin.vsto"
+				  "file": "Excel/PROJECT Assist Excel.vsto",
+				  "app_name": "Excel"
 				},
 			{
 				  "action": "vsto_installer",
-				  "file": "STRUCT Assist Excel Addin.vsto"
+				  "file": "Outlook/PROJECT Assist Outlook.vsto",
+				  "app_name": "Outlook"
 				},
 			
 			{
@@ -155,8 +157,8 @@
 			},
 			{
 				  "action": "vsto_installer",
-				  "file": "STRUCT Assist Excel Addin.vsto"
-					"app_name": "Excel"
+				  "file": "STRUCT Assist Excel Addin.vsto",
+				  "app_name": "Excel"
 				},
 
 			{
