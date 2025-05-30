@@ -38,6 +38,14 @@
 				],
 				"allow_create": false
 			},
+			{
+				  "action": "vsto_installer",
+				  "file": "STRUCT Assist Excel Addin.vsto"
+				},
+			{
+				  "action": "vsto_installer",
+				  "file": "STRUCT Assist Excel Addin.vsto"
+				},
 			
 			{
 				"action": "run_setup",
@@ -148,6 +156,7 @@
 			{
 				  "action": "vsto_installer",
 				  "file": "STRUCT Assist Excel Addin.vsto"
+					"app_name": "Excel"
 				},
 
 			{
