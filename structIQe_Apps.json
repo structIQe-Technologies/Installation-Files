@@ -145,6 +145,11 @@
 				"allow_create": false
 			},
 			{
+				  "action": "vsto_installer",
+				  "file": "STRUCT Assist Excel Addin.vsto"
+				},
+
+			{
 				"action": "run_setup",
 				"file": "C:/Program Files (x86)/structIQe/STRUCT Assist Excel Addin/setup.exe",
 				"args": "/silent"
