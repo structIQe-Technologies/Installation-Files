@@ -40,12 +40,12 @@
 			},
 			{
 				  "action": "vsto_installer",
-				  "file": "Excel/PROJECT Assist Excel.vsto",
+				  "file": "Library/Excel/PROJECT Assist Excel.vsto",
 				  "app_name": "Excel"
 				},
 			{
 				  "action": "vsto_installer",
-				  "file": "Outlook/PROJECT Assist Outlook.vsto",
+				  "file": "Library/Outlook/PROJECT Assist Outlook.vsto",
 				  "app_name": "Outlook"
 				},
 			
