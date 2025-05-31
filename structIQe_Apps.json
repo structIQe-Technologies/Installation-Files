@@ -10,6 +10,16 @@
 		"system_app": true,
 		"hasp_installer_path": "License Support\\haspdinst_106406.exe",
 		"rus_path": "License Support\\RUS_QDYMX.exe",
+		"email_template": {
+				    "fresh_license": {
+				      "subject": "License Request: {SoftwareName}",
+				      "body": "Hello,\n\nI would like to request a fresh license for:\n\n- Software: {SoftwareName}\n- Duration: {Years} year(s)\n\nUser: {UserName}\nMachine: {MachineName}\n\nThanks."
+				   			 },
+				    "upgrade_license": {
+				      "subject": "License Upgrade: {SoftwareName}",
+				      "body": "Hello,\n\nPlease find attached the fingerprint file to upgrade the license for:\n\n- Software: {SoftwareName}\n\nUser: {UserName}\nMachine: {MachineName}\n\nRegards."
+			   				 }
+	 			 },
 		"install_steps": []
 	},
 	
