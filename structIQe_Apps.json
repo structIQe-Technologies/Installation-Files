@@ -80,7 +80,7 @@
 		"name": "CAD Assist",
 		"repo": "https://github.com/structIQe-Technologies/Setup-Files-CAD-Assist",
 		"Folder": "CAD Assist",
-		"version": "5.1.3",
+		"version": "5.2.1",
 		"install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
 		"feature_range_start": 6000,
 		"feature_range_end": 6100,
