@@ -17,7 +17,7 @@
 				   			 },
 				    "upgrade": {
 				      "subject": "License Upgrade: {SoftwareName}",
-				      "body": "Hello,\n\nPlease find attached the fingerprint file to upgrade the license for:\n\n- Software: {SoftwareName}\n\nUser: {UserName}\nMachine: {MachineName}\n\nRegards."
+				      "body": "Hello,\n\nPlease find attached the fingerprint file to upgrade the license for:\n\n- User: {UserName}\n- Machine (Optional): {MachineName}\n\n- Software: {SoftwareName}\n\n- Company Name: {CompanyName}"
 			   				 }
 	 			 },
 		"install_steps": []
