@@ -13,7 +13,7 @@
 		"email_template": {
 				    "fresh": {
 				      "subject": "License Request: {SoftwareName}",
-				      "body": "Hello,\n\nI would like to request a fresh license for:\n\n- Software: {SoftwareName}\n- Duration: {Years} year(s)\n\nUser: {UserName}\nMachine: {MachineName}\n\nThanks."
+				      "body": "Hello,\n\nI would like to request a fresh license for:\n\n- User: {UserName}\n- Machine (Optional): {MachineName}\n\n- Software: {SoftwareName}\n\n- Company Name: {CompanyName}""
 				   			 },
 				    "upgrade": {
 				      "subject": "License Upgrade: {SoftwareName}",
