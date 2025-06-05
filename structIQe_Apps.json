@@ -12,12 +12,12 @@
 		"rus_path": "License Support\\RUS_QDYMX.exe",
 		"email_template": {
 				    "fresh": {
-				      "subject": "License Request: {SoftwareName}",
-				      "body": "Hello,\n\nI would like to request a fresh license for:\n\n- User: {UserName}\n- Machine (Optional): {MachineName}\n\n- Software: {SoftwareName}\n\n- Company Name: {CompanyName}"
+				      "subject": "Software License Request",
+				      "body": "Dear structIQe Team,\n\nI hope this message finds you well.\nI am writing to request a new software license for our team.\nPlease find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Machine (Optional): {MachineName}\n\n- Software: {SoftwareName}\n\n- Company Name: {CompanyName}\nThank you for your assistance."
 				   			 },
 				    "upgrade": {
-				      "subject": "License Upgrade: {SoftwareName}",
-				      "body": "Hello,\n\nPlease find attached the fingerprint file to upgrade the license for:\n\n- User: {UserName}\n- Machine (Optional): {MachineName}\n\n- Software: {SoftwareName}\n\n- Company Name: {CompanyName}"
+				      "subject": "Software License Update Request",
+				      "body": "Dear structIQe Team,\n\nI hope this message finds you well.\nI am writing to request that you kindly renew our software license.\n Please find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Machine (Optional): {MachineName}\n\n- Software: {SoftwareName}\n\n- Company Name: {CompanyName}\nThank you for your assistance."
 			   				 }
 	 			 },
 		"install_steps": []
