@@ -13,11 +13,11 @@
 		"email_template": {
 				    "fresh": {
 				      "subject": "Software License Request",
-				      "body": "Dear structIQe Team,\nI am writing to request a new software license.\nPlease find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Company Name: {CompanyName}\n- Software: {SoftwareName}\nThank you"
+				      "body": "Dear structIQe Team,\nI am writing to request a new software license.\nPlease find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Company Name: {CompanyName}\n- Software: {SoftwareName}\n\nThank you"
 				   			 },
 				    "upgrade": {
 				      "subject": "Software License Update Request",
-				      "body": "Dear structIQe Team,\nI am writing to request that you kindly renew our software license.\n Please find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Company Name: {CompanyName}\n- Software: {SoftwareName}\nThank you"
+				      "body": "Dear structIQe Team,\nI am writing to request that you kindly renew our software license.\n Please find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Company Name: {CompanyName}\n- Software: {SoftwareName}\n\nThank you"
 			   				 }
 	 			 },
 		"install_steps": []
