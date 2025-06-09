@@ -33,6 +33,7 @@
 		"install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
 		"feature_range_start": 11000,
 		"feature_range_end": 11100,
+		 "prerequisite_message": "Please close all Office applications before installation.",
 		"Modules": [
 			"Project Management",
 			"Mail Management",
@@ -85,6 +86,7 @@
 		"install_path": "C:\\Program Files (x86)\\structIQe\\CAD Assist",
 		"feature_range_start": 6000,
 		"feature_range_end": 6100,
+		 "prerequisite_message": "Please close AutoCAD application before installation.",
 		"Modules": [
 			"CAD Manager",
 			"Tendon Works",
@@ -130,6 +132,7 @@
 		"install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist",
 		"feature_range_start": 7000,
 		"feature_range_end": 7100,
+		
 		"Modules": [
 			"Biaxial Analysis",
 			"Uniaxial Analysis",
@@ -151,6 +154,7 @@
 		"install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist Excel Addin",
 		"feature_range_start": 7000,
 		"feature_range_end": 7100,
+		 "prerequisite_message": "Please close all Office applications before installation.",
 		"Modules": [
 			"Basic",
 			"Advanced"
