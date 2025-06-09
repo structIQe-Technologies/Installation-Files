@@ -33,7 +33,7 @@
 		"install_path": "C:\\Program Files (x86)\\structIQe\\PROJECT Assist",
 		"feature_range_start": 11000,
 		"feature_range_end": 11100,
-		 "prerequisite_message": "Please close all Office applications before installation.",
+		 "prerequisite_message": "Please close all MS Office applications before installation.",
 		"Modules": [
 			"Project Management",
 			"Mail Management",
@@ -154,7 +154,7 @@
 		"install_path": "C:\\Program Files (x86)\\structIQe\\STRUCT Assist Excel Addin",
 		"feature_range_start": 7000,
 		"feature_range_end": 7100,
-		 "prerequisite_message": "Please close all Office applications before installation.",
+		 "prerequisite_message": "Please close all MS Office applications before installation.",
 		"Modules": [
 			"Basic",
 			"Advanced"
