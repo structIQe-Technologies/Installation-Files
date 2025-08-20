@@ -137,10 +137,7 @@
 			"Biaxial Analysis",
 			"Uniaxial Analysis",
 			"Base Pressure Check ",
-			"Structural Analysis",
-			"Profile Interpolation",
-			"Report Generation",
-			"Tendon Data Generation"
+			"Structural Analysis"
 		],
 		"release_notes": "Bug fixes and performance improvement.",
 		"icon": "structassist_icon.png"
