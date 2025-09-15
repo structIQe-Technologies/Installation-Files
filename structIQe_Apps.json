@@ -4,7 +4,7 @@
 		"name": "Application Manager",
 		"version": "1.0.0",
 		"install_path": "C:\\Program Files (x86)\\structIQe",
-		"system_app": true,
+		"system_app": false,
 		"install_steps": []
 	},
 	
