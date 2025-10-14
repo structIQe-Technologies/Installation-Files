@@ -1,6 +1,29 @@
 [
 	
 	
+	{
+		"id": "License_support",
+		"name": "License Support",
+		"repo": "https://github.com/structIQe-Technologies/Setup-Files-License-Support",
+		"version": "1.0.0",
+		"install_path": "C:\\Program Files (x86)\\structIQe",
+		"Modules": [],
+		"release_notes": "",
+		"system_app": true,
+		"hasp_installer_path": "License Support\\haspdinst_106406.exe",
+		"rus_path": "License Support\\RUS_QDYMX.exe",
+		"email_template": {
+				    "fresh": {
+				      "subject": "Software License Request",
+				      "body": "Dear structIQe Team,\nI am writing to request a new software license.\nPlease find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Company Name: {CompanyName}\n- Software: {SoftwareName}\n\nThank you"
+				   			 },
+				    "upgrade": {
+				      "subject": "Software License Update Request",
+				      "body": "Dear structIQe Team,\nI am writing to request that you kindly renew our software license.\n Please find attached the required C2V file for your reference.\n\n- User: {UserName}\n- Company Name: {CompanyName}\n- Software: {SoftwareName}\n\nThank you"
+			   				 }
+	 			 },
+		"install_steps": []
+	},
 	
 	
 	{
