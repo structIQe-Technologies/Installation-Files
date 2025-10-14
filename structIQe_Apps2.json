@@ -21,14 +21,7 @@
 		"release_notes": "Initial release.",
 		"icon": "projectassist_icon.png",
 		"install_steps": [
-			{
-				"action": "copy",
-				"from": "C:/Program Files (x86)/structIQe/License Support/License APIs",
-				"to": [
-					"C:/Program Files/Microsoft Office/root/Office*"
-				],
-				"allow_create": false
-			},
+			
 			{
 				  "action": "vsto_installer",
 				  "file": "Library/Excel/PROJECT Assist Excel.vsto",
